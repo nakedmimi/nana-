@@ -1,0 +1,65 @@
+body {
+    font-family: cursive;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.gallery-container {
+    text-align: center;
+    background-color: pink;
+    padding: 70px;
+    border-radius: 50px;
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 300px;
+    margin: auto;
+}
+
+.gallery-item {
+    max-width: 100%;
+    display: none;  
+}
+
+.gallery-item.active {
+    display: block; 
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: pink;
+    border: 2px solid pink;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: pink;
+    color: white;
+}
+#fixedButton {
+    position: fixed;  /* Fixa o botão na tela, independente da rolagem */
+    bottom: 20px;     /* Distância do botão em relação à parte inferior da página */
+    right: 20px;      /* Distância do botão em relação à direita da página */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: pink; /* Cor de fundo do botão */
+    color: white;      /* Cor do texto do botão */
+    border: none;      /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Arredonda as bordas do botão */
+    cursor: pointer;   /* Muda o cursor ao passar sobre o botão */
+    font-size: 16px;   /* Tamanho da fonte do botão */
+}
+
+#fixedButton:hover {
+    background-color: #ff69b4; /* Cor de fundo ao passar o mouse */
+}

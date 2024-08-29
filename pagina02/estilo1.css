@@ -1,0 +1,45 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.gallery-container {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.text-container {
+    display: 10px;
+    font-family: cursive;
+    font-size: 24px;
+    color: pink;
+    float: left; 
+    width: 50%; 
+    
+}
+.footer-credit {
+    position: fixed; /* Fixa o elemento na posição especificada */
+    bottom: 10px; /* Espaço de 10 pixels da parte inferior */
+    right: 10px; /* Espaço de 10 pixels da parte direita */
+    font-size: 20px; /* Tamanho da fonte */
+    color: pink; /* Cor do texto */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+    padding: 5px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+  }
+  
+   
